@@ -1,4 +1,10 @@
                             Setting Up Your Development Environment
+Release Timeline
+    J2EE 1.2    J2EE 1.3    J2EE 1.4    Java EE 5   Java EE 6   Java EE 7   Java EE 8
+    1999        2001           2003     2006        2009        2013        2016/2017
+
+    Spring 1.0      Spring 2.0     Spring 3.0       Spring 4.0      Spring 4.3 
+        2004            2006           2009             2013          Mar 2016
 
 Dev Environment Overview
     Must Have Java Development Kit (JDK)
@@ -7,4 +13,22 @@ Dev Environment Overview
     Software
         Java Application Server For Spring MVC web development. We use Tomcat server
         Java Integrated Development Environment (IDE). Use eclipse
+
+Installing Tomcat on MS Windows
+    Tomcat Version:
+        New version of Tomcat 10 was released to support Jakarta EE 9(around February, 2021)
+        In this release they renamed the packages, javax.* to jakarta.*
+        This is a breaking change for java EE apps
+        Spring 5 currently does not support the new package renaming Jakarta EE9. As a result, Spring 5 does not currently
+            work on Tomcat 10
+        We will use Tomcat 9 for our Spring 5 apps
+    https://tomcat.apache.org/ -> https://tomcat.apache.org/download-90.cgi
+        32-bit/64-bit Windows Service Installer (pgp, sha512)
+    When install -> Select the type of install: Full
+    Username: admin 
+    Password: admin
+    Turn of option "Show Readme"
+    Verify the Installation: http://localhost:8080/
+    services.msc -> service(local) -> Apache Tomcat 9.0 Tomcat9 -> Start or Stop
+    Stop it and we will start it via Eclipse later
     
