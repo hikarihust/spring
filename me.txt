@@ -48,5 +48,11 @@ Connecting Eclipse to Tomcat
         open folder and scroll to select Tomcat 9
         Tomcat installation directly: Tell Eclipse where Tomcat is installed
             C:\Program Files\Apache Software Foundation\Tomcat 9.0
-    
+Downloading Spring 5 JAR Files - Overview
+    To Do List
+        Create Eclipse Project
+        Download Spring JAR Files
+        Add JAR files to Eclipse Project … Build Path
+    What about Maven 
+        Instead of manually downloading we can use a tool like Maven
     
