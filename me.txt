@@ -55,4 +55,18 @@ Downloading Spring 5 JAR Files - Overview
         Add JAR files to Eclipse Project … Build Path
     What about Maven 
         Instead of manually downloading we can use a tool like Maven
+Downloading Spring 5 JAR files - Installation
+    Windows -> Perspective -> Java
+    Create Project
+        File -> New -> Java Project
+        Project name: spring-demo-one
+    luv2code.com/downloadspring
+    https://repo.spring.io/release/org/springframework/spring/
+        spring-5.3.5-dist.zip 
+    Create folder "lib" in "spring-demo-one" Project
+    Copy all of the JAR files in libs folder that downloaded into "lib" created folder
+    Add that jar files to class path
+    Right click "spring-demo-one" -> Properties -> Java Build Path -> Libraries -> Classpath -> Add JARs -> Select all 
+        jar files in "lib" folder of "spring-demo-one" project 
+    After that we can see  having new "Referenced Libraries" in "spring-demo-one" project
     
