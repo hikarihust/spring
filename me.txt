@@ -69,4 +69,21 @@ Downloading Spring 5 JAR files - Installation
     Right click "spring-demo-one" -> Properties -> Java Build Path -> Libraries -> Classpath -> Add JARs -> Select all 
         jar files in "lib" folder of "spring-demo-one" project 
     After that we can see  having new "Referenced Libraries" in "spring-demo-one" project
+
+    ==================================================================================================================
+
+                            Spring Inversion of Control - XML Configuration
+
+Code Demo - Rough Prototype
+    Create a new package
+        spring-demo-one -> New -> Package -> Name: com.luv2code.springdemo
+    Create a new interface
+        com.luv2code.springdemo -> New -> Interface -> Name: Coach
+    Create a new class: BaseballCoach
+        com.luv2code.springdemo -> New -> Class -> Name: BaseballCoach
+    Create a new class: MyApp
+        com.luv2code.springdemo -> New -> Class
+            Name: MyApp
+            check the box: public static void main(String[] args)
+    Run MyApp.java/Right click -> Run as -> Java Application
     
