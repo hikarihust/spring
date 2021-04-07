@@ -86,4 +86,16 @@ Code Demo - Rough Prototype
             Name: MyApp
             check the box: public static void main(String[] args)
     Run MyApp.java/Right click -> Run as -> Java Application
+Spring Inversion of Control - Overview
+    Spring Container's Primary functions
+        Create and manage objects (Inversion of Control)
+        Inject object’s dependencies (Dependency Injection)
+    Configuring Spring Container
+        XML configuration file (legacy, but most legacy apps still use this)
+        Java Annotations (modern)
+        Java Source Code (modern)
+    Spring Development Process
+        Configure our Spring Beans
+        Create a Spring Container
+        Retrieve Beans from Spring Container
     
