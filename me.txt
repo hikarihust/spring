@@ -115,4 +115,18 @@ Spring Inversion of Control - Write Some Code - Part 1
 Spring Inversion of Control - Write Some Code - Part 2
         TrackCoach -> BaseballCoach
     class="com.luv2code.springdemo.BaseballCoach">
+
+    ==================================================================================================================
+
+                            Spring Dependency Injection - XML Configuration
+
+Spring Dependency Injection - Overview
+    "Dependency" same thing as helper objects
+    We will cover the two most common
+        Constructor Injection
+        Setter Injection
+    Development Process - Constructor Injection
+        Define the dependency interface and class
+        Create a constructor in your class for injections
+        Configure the dependency injection in Spring config file
     
