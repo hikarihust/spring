@@ -173,4 +173,6 @@ Spring Dependency Injection - Write Some Code - Part 1
 Spring Dependency Injection - Write Some Code - Part 2
     Create a constructor in our class for injections
     Configure the dependency injection in Spring config file
+Spring Dependency Injection - Write Some Code - Part 3
+    Run as Java Application: HelloSpringApp.java
     
