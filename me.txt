@@ -126,9 +126,9 @@ Spring Dependency Injection - Overview
         Constructor Injection
         Setter Injection
     Development Process - Constructor Injection
-        Define the dependency interface and class
-        Create a constructor in our class for injections
-        Configure the dependency injection in Spring config file
+        1. Define the dependency interface and class
+        2. Create a constructor in our class for injections
+        3. Configure the dependency injection in Spring config file
         interface Car {
             public function run();
         }
@@ -175,4 +175,24 @@ Spring Dependency Injection - Write Some Code - Part 2
     Configure the dependency injection in Spring config file
 Spring Dependency Injection - Write Some Code - Part 3
     Run as Java Application: HelloSpringApp.java
+Setter Injection - Overview
+    Inject dependencies by calling setter method(s) on our class
+    Development Process - Setter Injection
+        1. Create setter method(s) in our class for injections
+        2. Configure the dependency injection in Spring config file
+    How Spring Processes your Config File
+        <bean id="myFortuneService"
+            class="com.luv2code.springdemo.HappyFortuneService">
+        </bean>
+        Spring Framework:
+            HappyFortuneService myFortuneService =
+                new HappyFortuneService();
+        <bean id="myCricketCoach"
+            class="com.luv2code.springdemo.CricketCoach">
+            <property name="fortuneService" ref="myFortuneService" />
+        </bean>
+        Spring Framework:
+            CricketCoach myCricketCoach =
+                new CricketCoach();
+            myCricketCoach.setFortuneService(myFortuneService);
     
