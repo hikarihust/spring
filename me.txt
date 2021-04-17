@@ -203,4 +203,9 @@ Injecting Literal Values - Overview
         1. Create setter method(s) in our class for injections
         2. Configure the injection in Spring config file
 Injecting Literal Values - Write Some Code
+Injecting Values from a Properties File - Overview
+    Development Process
+        1. Create Properties File
+        2. Load Properties File in Spring config file
+        3. Reference values from Properties File
     
