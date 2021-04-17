@@ -195,4 +195,5 @@ Setter Injection - Overview
             CricketCoach myCricketCoach =
                 new CricketCoach();
             myCricketCoach.setFortuneService(myFortuneService);
+Setter Injection - Write Some Code - Part 1
     
