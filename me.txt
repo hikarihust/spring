@@ -127,7 +127,7 @@ Spring Dependency Injection - Overview
         Setter Injection
     Development Process - Constructor Injection
         Define the dependency interface and class
-        Create a constructor in your class for injections
+        Create a constructor in our class for injections
         Configure the dependency injection in Spring config file
         interface Car {
             public function run();
@@ -170,4 +170,7 @@ Spring Dependency Injection - Behind the Scenes
             new BaseballCoach(myFortuneService);
 Spring Dependency Injection - Write Some Code - Part 1
     Define the dependency interface and class: Create interface FortuneService
+Spring Dependency Injection - Write Some Code - Part 2
+    Create a constructor in our class for injections
+    Configure the dependency injection in Spring config file
     
