@@ -196,4 +196,6 @@ Setter Injection - Overview
                 new CricketCoach();
             myCricketCoach.setFortuneService(myFortuneService);
 Setter Injection - Write Some Code - Part 1
+Setter Injection - Write Some Code - Part 2
+    Create SetterDemoApp class with public static void main
     
