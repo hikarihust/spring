@@ -168,4 +168,6 @@ Spring Dependency Injection - Behind the Scenes
             new HappyFortuneService();
         BaseballCoach myCoach =
             new BaseballCoach(myFortuneService);
+Spring Dependency Injection - Write Some Code - Part 1
+    Define the dependency interface and class: Create interface FortuneService
     
