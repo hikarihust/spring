@@ -198,4 +198,8 @@ Setter Injection - Overview
 Setter Injection - Write Some Code - Part 1
 Setter Injection - Write Some Code - Part 2
     Create SetterDemoApp class with public static void main
+Injecting Literal Values - Overview
+    Development Process
+        1. Create setter method(s) in our class for injections
+        2. Configure the injection in Spring config file
     
