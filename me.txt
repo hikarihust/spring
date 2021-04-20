@@ -215,9 +215,15 @@ Injecting Values from a Properties File - Write Some Code
                             Spring Bean Scopes and Lifecycle
             
 Bean Scopes - Overview
+    What Is a Singleton
+        Spring Container creates only one instance of the bean, by default
+        It is cached in memory
+        All requests for the bean will return a SHARED reference to the SAME bean
     Additional Spring Bean Scopes
         singleton: Create a single shared instance of the bean. Default scope.
         prototype: Creates a new bean instance for each container request.
         request: Scoped to an HTTP web request. Only used for web apps.
         session: Scoped to an HTTP web session. Only used for web apps.
         global-session: Scoped to a global HTTP web session. Only used for web apps.
+Bean Scopes - Write Some Code - Part 1
+    
