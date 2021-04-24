@@ -227,4 +227,20 @@ Bean Scopes - Overview
         global-session: Scoped to a global HTTP web session. Only used for web apps.
 Bean Scopes - Write Some Code - Part 1
 Bean Scopes - Write Some Code - Part 2
+Bean Lifecycle - Overview
+    Bean Lifecycle
+        Container Started -> Bean Instantiated -> Dependencies Injected -> Internal Spring Processing -> Our Custom Init Method
+        -> Bean Is Ready For Use
+            --------------------
+            Container Is Shutdown -> Our Custom Destroy Method -> Stop
+    Bean Lifecycle Methods / Hooks
+        - We can add custom code during bean initialization
+            + Calling custom business logic methods
+            + Setting up handles to resources (db, sockets, file etc)
+        - We can add custom code during bean destruction
+            + Calling custom business logic method
+            + Clean up handles to resources (db, sockets, files etc)
+    Development Process
+        1. Define your methods for init and destroy
+        2. Configure the method names in Spring config file
     
