@@ -226,4 +226,5 @@ Bean Scopes - Overview
         session: Scoped to an HTTP web session. Only used for web apps.
         global-session: Scoped to a global HTTP web session. Only used for web apps.
 Bean Scopes - Write Some Code - Part 1
+Bean Scopes - Write Some Code - Part 2
     
